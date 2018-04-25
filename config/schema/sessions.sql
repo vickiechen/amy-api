@@ -1,7 +1,9 @@
 
 CREATE DATABASE Amy;
 
-CREATE TABLE users if notexist  (
+USE Amy;
+
+CREATE TABLE users (
     userID int(11) NOT NULL AUTO_INCREMENT,
     userName varchar(255) NOT NULL,
     password varchar(30) NOT NULL,
